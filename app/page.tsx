@@ -15,19 +15,25 @@ export default function Home() {
 
   const initialData: MusicData[] = [
     {
-      title: "埴生の宿",
-      info: "唱歌 はにゅうのやどもわがやどたまのよそいうらやまじ",
+      title: "埴生の宿(はにゅうのやどもわがやどたまのよそいうらやまじ)",
+      info: "童謡・唱歌 はにゅうのやどもわがやどたまのよそいうらやまじ",
       filename: "埴生の宿",
     },
     {
-      title: "同期の桜",
+      title: "同期の桜(おまえとおれとはどうきのさくら)",
       info: "軍歌・戦時歌謡 おまえとおれとはどうきのさくら",
       filename: "同期の桜",
     },
     {
-      title: "ラジオ体操の歌",
+      title: "ラジオ体操の歌(作曲: 藤山一郎)",
       info: "作曲: 藤山一郎",
       filename: "ラジオ体操の歌",
+    },
+    {
+      title:
+        "嗚呼玉杯に花うけて(一高寮歌。ああぎょくはいにはなうけてりょくしゅにつきのかげやどし)",
+      info: "一高寮歌 ああぎょくはいにはなうけてりょくしゅにつきのかげやどし 戦時歌謡",
+      filename: "嗚呼玉杯に",
     },
   ];
 
@@ -61,8 +67,6 @@ export default function Home() {
     return index % 2 === 0 ? "lime" : "sky";
   };
 
-  console.log(musicData);
-
   return (
     <div className="">
       {showList ? (
@@ -83,12 +87,12 @@ export default function Home() {
         <div>
           <div className="">{music.title}</div>
           <div className="">
-            <audio src={`${BASE_PATH}/${music.title}.mp3`} controls></audio>
+            <audio src={`${BASE_PATH}/${music.filename}.mp3`} controls></audio>
           </div>
 
           <div>
             <Image
-              src={`${BASE_PATH}/${music.title}.svg`}
+              src={`${BASE_PATH}/${music.filename}.svg`}
               alt="music sheet"
               width={4000}
               height={4000}
