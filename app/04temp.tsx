@@ -47,9 +47,12 @@ export default function Home() {
       .map((a) => a.value);
   }
 
-  useEffect(() => {
-    setMusicData(shuffleList(musicData));
-  }, []);
+  // useEffect(() => {
+  //   setMusicData((prevMusicData) => ({
+  //     ...prevMusicData,
+  //     list: shuffleList(musicData),
+  //   }));
+  // }, []);
 
   const handleShowMusic = (index: number) => {
     const selectedMusic = musicData[index];
@@ -67,11 +70,12 @@ export default function Home() {
     <div className="">
       {showList ? (
         <ul>
-          {musicData.map((music, index) => (
+          {initialData.map((music, index) => (
             <p
               className="mx-auto w-[800px]"
               key={index}
               onClick={() => handleShowMusic(index)}
+              // style={{ background: linecolor(index), cursor: "pointer" }}
               style={{ background: linecolor(index), cursor: "pointer" }}
             >
               {music.title}
@@ -81,14 +85,13 @@ export default function Home() {
         </ul>
       ) : (
         <div>
-          <div className="">{music.title}</div>
           <div className="">
-            <audio src={`${BASE_PATH}/${music.title}.mp3`} controls></audio>
+            <audio src={`${BASE_PATH}/ラジオ体操の歌.mp3`} controls></audio>
           </div>
 
           <div>
             <Image
-              src={`${BASE_PATH}/${music.title}.svg`}
+              src={`${BASE_PATH}/ラジオ体操の歌.svg`}
               alt="music sheet"
               width={4000}
               height={4000}
