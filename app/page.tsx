@@ -86,6 +86,26 @@ export default function Home() {
       info: "童謡・唱歌",
       filename: "森の小人",
     },
+    {
+      title: "君が代(きみがよはちよにやちよに)",
+      info: "国歌",
+      filename: "君が代",
+    },
+    {
+      title: "おうま(おうまのおやこはなかよしこよし)",
+      info: "童謡・唱歌",
+      filename: "おうま",
+    },
+    {
+      title: "金魚の昼寝(あかいべべきたかわいいきんぎょ)",
+      info: "童謡・唱歌",
+      filename: "金魚の昼寝",
+    },
+    {
+      title: "案山子(やまだのなかのいっぽんあしのかかし)",
+      info: "童謡・唱歌",
+      filename: "案山子",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
