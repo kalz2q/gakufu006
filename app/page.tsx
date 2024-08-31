@@ -60,6 +60,32 @@ export default function Home() {
       info: "童謡・唱歌",
       filename: "この道",
     },
+    {
+      title: "子鹿のバンビ(こじかのばんびはかわいいなおはながにおうはるのあさ)",
+      info: "童謡・唱歌",
+      filename: "子鹿のバンビ",
+    },
+    {
+      title:
+        "さらば涙と言おう(さよならはだれにいうさよならはかなしみに 森田健作)",
+      info: "",
+      filename: "さらば涙と言おう",
+    },
+    {
+      title: "アブラハムの子(あぶらはむにはしちにんのこ)",
+      info: "童謡・唱歌",
+      filename: "アブラハムの子",
+    },
+    {
+      title: "かっこう(かっこうかっこうどこかでなつをよぶもりのこえ)",
+      info: "童謡・唱歌",
+      filename: "かっこう",
+    },
+    {
+      title: "森の小人(もりのこかげでどんじゃらほい)",
+      info: "童謡・唱歌",
+      filename: "森の小人",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
@@ -109,12 +135,16 @@ export default function Home() {
           ))}
         </ul>
       ) : (
-        <div>
-          <div className="">{music.title}</div>
-          <div className="">
-            <audio src={`${BASE_PATH}/${music.filename}.mp3`} controls></audio>
+        <div className="">
+          <div className="flex flex-row justify-between">
+            <div className="">{music.title}</div>
+            <div className="">
+              <audio
+                src={`${BASE_PATH}/${music.filename}.mp3`}
+                controls
+              ></audio>
+            </div>
           </div>
-
           <div>
             <Image
               src={`${BASE_PATH}/${music.filename}.svg`}
