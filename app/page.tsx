@@ -106,6 +106,46 @@ export default function Home() {
       info: "童謡・唱歌",
       filename: "案山子",
     },
+    {
+      title: "つき(でたでたつきが)",
+      info: "童謡・唱歌",
+      filename: "つき",
+    },
+    {
+      title: "月の沙漠(つきのさばくをはるばるとたびのらくだがゆきました)",
+      info: "童謡・唱歌",
+      filename: "月の沙漠",
+    },
+    {
+      title: "あんたがたどこさ(ひごさひごどこさくまもとさ)",
+      info: "童謡・唱歌",
+      filename: "あんたがたどこさ",
+    },
+    {
+      title: "山の音楽家(わたしゃおんがくかやまのこりす)",
+      info: "童謡・唱歌",
+      filename: "山の音楽家",
+    },
+    {
+      title: "山のロザリア(やまのむすめろざりあいつもひとりうたうよ)",
+      info: "童謡・唱歌",
+      filename: "山のロザリア",
+    },
+    {
+      title: "森の水車(みどりのもりのかなたから)",
+      info: "童謡・唱歌",
+      filename: "森の水車",
+    },
+    {
+      title: "ローレライ(なじかはしらねどこころわびて Lorelei)",
+      info: "童謡・唱歌",
+      filename: "ローレライ",
+    },
+    {
+      title: "椰子の実(やしのみ。なもしらぬとおきしまより)",
+      info: "童謡・唱歌",
+      filename: "椰子の実",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
