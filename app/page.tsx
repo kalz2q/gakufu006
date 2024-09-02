@@ -146,6 +146,16 @@ export default function Home() {
       info: "童謡・唱歌",
       filename: "椰子の実",
     },
+    {
+      title: "早春賦(はるはなのみのかぜのさむさやたにのうぐいすうたはおもえど)",
+      info: "童謡・唱歌",
+      filename: "早春賦",
+    },
+    {
+      title: "かなりや(うたをわすれたかなりやは)",
+      info: "童謡・唱歌",
+      filename: "かなりや",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
