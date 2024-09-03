@@ -156,6 +156,63 @@ export default function Home() {
       info: "童謡・唱歌",
       filename: "かなりや",
     },
+    {
+      title: "鎌倉(しちりがはまのいそづたい)",
+      info: "童謡・唱歌",
+      filename: "鎌倉",
+    },
+    {
+      title: "くつがなる(おててつないでのみちをゆけば)",
+      info: "童謡・唱歌",
+      filename: "くつがなる",
+    },
+    {
+      title: "TOMORROW(トゥモロー。なみだのかずだけつよくなれるよ)",
+      info: "JPOP",
+      filename: "TOMORROW",
+    },
+    {
+      title: "一週間(ロシア。にちようびにいちばにでかけ)",
+      info: "ロシア",
+      filename: "一週間",
+    },
+    {
+      title: "かえるの合唱(かえるのうたがきこえてくるよ)",
+      info: "童謡・唱歌",
+      filename: "かえるの合唱",
+    },
+    {
+      title: "アマリリス(みんなできこうたのしいオルゴールを)",
+      info: "童謡・唱歌",
+      filename: "アマリリス",
+    },
+    {
+      title: "ステンカ・ラージン(くおんにとどろくゔぉるがのながれ)",
+      info: "ロシア",
+      filename: "ステンカ・ラージン",
+    },
+    {
+      title: "さくら(さくらさくらやよいのそらはみわたすかぎり)",
+      info: "童謡・唱歌",
+      filename: "さくら",
+    },
+    {
+      title:
+        "待ちぼうけ(まちぼうけあるひせっせとのらかせぎそこへうさぎがとんででて)",
+      info: "童謡・唱歌",
+      filename: "待ちぼうけ",
+    },
+    {
+      title: "夕焼け小焼け(ゆうやけこやけでひがくれてやまのおてらのかねがなる)",
+      info: "童謡・唱歌",
+      filename: "夕焼け小焼け",
+    },
+    {
+      title:
+        "宇宙戦艦ヤマト(さらばちきゅうよたびだつふねはうちゅうせんかんやまと)",
+      info: "アニメ",
+      filename: "宇宙戦艦ヤマト",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
