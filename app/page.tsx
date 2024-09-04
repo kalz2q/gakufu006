@@ -213,6 +213,26 @@ export default function Home() {
       info: "アニメ",
       filename: "宇宙戦艦ヤマト",
     },
+    {
+      title: "スキーの歌(かがやくひのかげはゆるのやま)",
+      info: "童謡・唱歌",
+      filename: "スキーの歌",
+    },
+    {
+      title: "スキー(やまはしろがねあさひをあびて)",
+      info: "童謡・唱歌",
+      filename: "スキー",
+    },
+    {
+      title: "げんこつやまのたぬきさん",
+      info: "童謡・唱歌",
+      filename: "げんこつやま",
+    },
+    {
+      title: "山寺の和尚さん(やまでらのおしょうさんがまりはけりたしまりはなし)",
+      info: "童謡・唱歌。服部良一",
+      filename: "山寺の和尚さん",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
