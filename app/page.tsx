@@ -284,6 +284,62 @@ export default function Home() {
       info: "歌謡曲。舟木一夫",
       filename: "高校三年生",
     },
+    {
+      title: "星に願いを(ディズニー。ピノキオ。かがやくほしにこころのゆめを)",
+      info: "ディズニー。洋楽",
+      filename: "星に願いを",
+    },
+    {
+      title: "樅の木(たんねんばうむ。もみのきもみのきおいやしげれる)",
+      info: "童謡・唱歌",
+      filename: "樅の木",
+    },
+    {
+      title: "ズンドコ節(きしゃのまどからてをにぎりおくってくれたひとよりも)",
+      info: "軍歌・戦時歌謡。海軍小唄",
+      filename: "ズンドコ節",
+    },
+    {
+      title: "さらばナポリ(Addio a Napoli わかれのときよいざいざさらば)",
+      info: "洋楽 イタリア カンツォーネ",
+      filename: "さらばナポリ",
+    },
+    {
+      title: "東京行進曲(むかしこいしいぎんざのやなぎあだなとしまをだれがしろ)",
+      info: "歌謡曲",
+      filename: "東京行進曲",
+    },
+    {
+      title: "アイルランドの子守歌(トゥラルーラルラー)",
+      info: "洋楽 民謡",
+      filename: "アイルランドの子守歌",
+    },
+    {
+      title:
+        "この木なんの木(日立。このきなんのききになるきなまえもしらないきですから)",
+      info: "CMソング",
+      filename: "この木なんの木",
+    },
+    {
+      title: "ホエン・アイ・フォール・イン・ラブ(When I Fall in Love)",
+      info: "洋楽 めぐり逢えたら 映画音楽 Celine Dion",
+      filename: "whenifallinlove",
+    },
+    {
+      title: "秋の夜半(ウェーバー。あきのよわのみそらすみて)",
+      info: "クラシック 魔弾の射手 童謡・唱歌",
+      filename: "秋の夜半",
+    },
+    {
+      title: "ジョニーが凱旋するとき(When Johnny Comes Marching Home)",
+      info: "洋楽 行進曲",
+      filename: "ジョニーが凱旋するとき",
+    },
+    {
+      title: "お富さん(いきなくろべいみこしのまつに)",
+      info: "歌謡曲 邦楽",
+      filename: "お富さん",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
