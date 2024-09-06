@@ -169,7 +169,7 @@ export default function Home() {
     {
       title: "TOMORROW(トゥモロー。なみだのかずだけつよくなれるよ)",
       info: "JPOP",
-      filename: "TOMORROW",
+      filename: "tomorrow",
     },
     {
       title: "一週間(ロシア。にちようびにいちばにでかけ)",
