@@ -340,6 +340,11 @@ export default function Home() {
       info: "歌謡曲 邦楽",
       filename: "お富さん",
     },
+    {
+      title: "皆の衆(みなのしゅうみなのしゅううれしかったらはらからわらえ)",
+      info: "演歌",
+      filename: "皆の衆",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
