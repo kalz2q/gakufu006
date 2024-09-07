@@ -345,6 +345,60 @@ export default function Home() {
       info: "演歌",
       filename: "皆の衆",
     },
+    {
+      title:
+        "チャンチキおけさ(つきがわびしいろじうらのやたいのさけのほろにがさ)",
+      info: "演歌 三波春夫",
+      filename: "ちゃんちきおけさ",
+    },
+    {
+      title: "Jupiter(ホルスト「惑星」よりジュピター「木星」)",
+      info: "クラシック",
+      filename: "木星",
+    },
+    {
+      title: "恋は水色(ポール・モーリア)",
+      info: "洋楽",
+      filename: "恋は水色",
+    },
+    {
+      title: "広瀬中佐(とどろくつつおととびくるだんがん)",
+      info: "軍歌・戦時歌謡",
+      filename: "広瀬中佐",
+    },
+    {
+      title:
+        "チム・チム・チェリー(ディズニー。メリー・ポピンズ。ちむちむにーちむちむにー)",
+      info: "洋楽",
+      filename: "チム・チム・チェリー",
+    },
+    {
+      title:
+        "花まつり(ぬるんだみずにはるのひはうかびこぶねははなたばをつんではしる)",
+      info: "洋楽",
+      filename: "花まつり",
+    },
+    {
+      title:
+        "秋桜(うすべにのこすもすがあきのひのなにげないひだまりにゆれている)",
+      info: "歌謡曲",
+      filename: "秋桜",
+    },
+    {
+      title: "オーラ・リー(Aura Lee)",
+      info: "洋楽",
+      filename: "オーラ・リー",
+    },
+    {
+      title: "イエスタデイ・ワンス・モア(カーペンターズ。Yesterday Once More)",
+      info: "洋楽",
+      filename: "イエスタデイ・ワンス・モア",
+    },
+    {
+      title: "あの丘越えて(やまのまきばのゆうぐれにかりがとんでるただいちわ)",
+      info: "歌謡曲 美空ひばり",
+      filename: "あの丘越えて",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
