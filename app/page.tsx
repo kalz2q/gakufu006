@@ -399,6 +399,48 @@ export default function Home() {
       info: "歌謡曲 美空ひばり",
       filename: "あの丘越えて",
     },
+    {
+      title:
+        "誰よりも君を愛す(だれにもいわれずたがいにちかったかりそめのこいなら)",
+      info: "歌謡曲 松尾和子",
+      filename: "誰よりも君を愛す",
+    },
+    {
+      title: "春の唄(らららあかいはなたば)",
+      info: "童謡・唱歌 歌謡曲",
+      filename: "春の唄ラララ",
+    },
+    {
+      title: "春の歌(メンデルスゾーン)",
+      info: "クラシック",
+      filename: "メンデルスゾーンの春の歌",
+    },
+    {
+      title: "春の唄(さくらのはなのさくころはうららうららとひはうらら)",
+      info: "童謡・唱歌 歌謡曲",
+      filename: "春の唄さくら",
+    },
+    {
+      title:
+        "夢はひそかに(ディズニー「シンデレラ」より Dream Is a Wish Your Heart Makes)",
+      info: "洋楽 Disney",
+      filename: "夢はひそかに",
+    },
+    {
+      title: "シューベルトの子守歌(ねむれねむらははのむねに)",
+      info: "クラシック",
+      filename: "シューベルトの子守歌",
+    },
+    {
+      title: "シューベルトのアヴェ・マリア",
+      info: "クラシック クリスマス アベマリア",
+      filename: "シューベルトのアヴェ・マリア",
+    },
+    {
+      title: "菩提樹(シューベルト。いずみにそいてしげるぼだいじゅ)",
+      info: "クラシック",
+      filename: "菩提樹",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
