@@ -441,6 +441,21 @@ export default function Home() {
       info: "クラシック",
       filename: "菩提樹",
     },
+    {
+      title: "シューベルトのセレナーデ(Schubert Serenade(Staendchen))",
+      info: "クラシック",
+      filename: "シューベルトのセレナーデ",
+    },
+    {
+      title: "ます(シューベルト。きよきながれをひかりはえてますははしれり)",
+      info: "クラシック",
+      filename: "ます",
+    },
+    {
+      title: "ストーミー・マンデー(Tボーン・ウォーカー ブルース)",
+      info: "洋楽 T-Bone Walker Blues",
+      filename: "ストーミー・マンデー",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
