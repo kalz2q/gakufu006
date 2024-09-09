@@ -456,6 +456,11 @@ export default function Home() {
       info: "洋楽 T-Bone Walker Blues",
       filename: "ストーミー・マンデー",
     },
+    {
+      title: "シューベルトの野ばら(わらべはみたりのなかのばら)",
+      info: "クラシック",
+      filename: "シューベルトの野ばら",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
