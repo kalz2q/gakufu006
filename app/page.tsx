@@ -622,6 +622,12 @@ export default function Home() {
       info: "",
       filename: "翼をください",
     },
+    {
+      title:
+        "めえめえこやぎ(めえめえもりのこやぎこやぎはしればこいしにあたる 本居長世 児山羊 童謡・唱歌)",
+      info: "",
+      filename: "めえめえこやぎ",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
@@ -690,7 +696,7 @@ export default function Home() {
               src={`${BASE_PATH}/${music.filename}.svg`}
               alt="music sheet"
               width={4000}
-              height={4000}
+              height={100}
             />
           </div>
         </div>
