@@ -628,6 +628,17 @@ export default function Home() {
       info: "",
       filename: "めえめえこやぎ",
     },
+    {
+      title: "十五夜お月さん(じゅうごやおつきさん 童謡・唱歌)",
+      info: "",
+      filename: "十五夜お月さん",
+    },
+    {
+      title:
+        "お山の杉の子(むかしむかしそのむかししいのきばやしのすぐそばに 童謡・唱歌 軍歌・戦時歌謡)",
+      info: "",
+      filename: "お山の杉の子",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
@@ -661,21 +672,22 @@ export default function Home() {
   };
 
   return (
-    <div className="">
+    <div className="text-3xl">
       {showList ? (
         <ul>
           {musicData.map((music, index) => (
             <p
-              className="ml-3 flex flex-row justify-between"
+              className="ml-2"
+              // className="flex flex-row justify-between"
               // className="mx-auto w-[800px] flex flex-row "
               key={index}
               onClick={() => handleShowMusic(index)}
               style={{ background: linecolor(index), cursor: "pointer" }}
             >
               {music.title}
-              <button className="bg-red-300 bg-opacity-30  w-36">
+              {/* <button className="bg-red-300 bg-opacity-30  w-36">
                 Show Music
-              </button>
+              </button> */}
               {/* <button style={{ float: "right" }}>Show Music</button> */}
             </p>
           ))}
@@ -683,7 +695,7 @@ export default function Home() {
       ) : (
         <div className="">
           <div className="flex flex-row justify-between">
-            <div className="">{music.title}</div>
+            <div className="text-xl">{music.title}</div>
             <div className="">
               <audio
                 src={`${BASE_PATH}/${music.filename}.mp3`}
