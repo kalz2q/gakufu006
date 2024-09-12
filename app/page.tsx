@@ -173,7 +173,8 @@ export default function Home() {
       filename: "くつがなる",
     },
     {
-      title: "TOMORROW(トゥモロー。なみだのかずだけつよくなれるよ JPOP 歌謡曲)",
+      title:
+        "TOMORROW(トゥモロー。なみだのかずだけつよくなれるよ 岡本真夜 JPOP 歌謡曲)",
       info: "JPOP",
       filename: "tomorrow",
     },
@@ -587,6 +588,40 @@ export default function Home() {
       info: "",
       filename: "カチューシャ",
     },
+    {
+      title:
+        "赤鼻のトナカイ(Rudolph the Red-Nosed Reindeer、まっかなおはなの。クリスマス)",
+      info: "",
+      filename: "赤鼻のトナカイ",
+    },
+    {
+      title: "ぶんぶんぶん(ぶんぶんぶんはちがとぶ 童謡・唱歌 ボヘミア 洋楽)",
+      info: "",
+      filename: "ぶんぶんぶん",
+    },
+    {
+      title:
+        "愛国の花(ましろきふじのけだかさを 軍歌・戦時歌謡 古関裕而 渡辺はま子)",
+      info: "",
+      filename: "愛国の花",
+    },
+    {
+      title: "露営の歌(かってくるぞといさましく 古関裕而 軍歌・戦時歌謡)",
+      info: "",
+      filename: "露営の歌",
+    },
+    {
+      title:
+        "お座敷小唄(ふじのたかねにふるゆきもきょうとぽんとちょうにふるゆきも 歌謡曲 和田弘とマヒナスターズ)",
+      info: "",
+      filename: "お座敷小唄",
+    },
+    {
+      title:
+        "翼をください(いまわたしのねがいごとがかなうならば フォーク 歌謡曲 赤い鳥)",
+      info: "",
+      filename: "翼をください",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
@@ -632,7 +667,10 @@ export default function Home() {
               style={{ background: linecolor(index), cursor: "pointer" }}
             >
               {music.title}
-              <button style={{ float: "right" }}>Show Music</button>
+              <button className="bg-red-300 bg-opacity-30  w-36">
+                Show Music
+              </button>
+              {/* <button style={{ float: "right" }}>Show Music</button> */}
             </p>
           ))}
         </ul>
