@@ -639,46 +639,6 @@ export default function Home() {
       info: "",
       filename: "お山の杉の子",
     },
-    {
-      title:
-        "狼なんかこわくない(Who's Afraid of the Big Bad Wolf ディズニー 洋楽 Disney おおかみ 三匹の子豚)",
-      info: "",
-      filename: "狼なんかこわくない",
-    },
-    {
-      title:
-        "故郷を離るる歌(そののさゆりなでしこかきねのちぐさ ドイツ 童謡・唱歌)",
-      info: "",
-      filename: "故郷を離るる歌",
-    },
-    {
-      title: "大きな栗の木の下で(おおきなくりのきのしたで 童謡・唱歌 イギリス)",
-      info: "",
-      filename: "大きな栗の木の下で",
-    },
-    {
-      title: "茶摘み(ちゃつみ。なつもちかづくはちじゅうはちや 童謡・唱歌)",
-      info: "",
-      filename: "茶摘み",
-    },
-    {
-      title:
-        "蘇州夜曲(きみがみむねにだかれてきくは 服部良一 1940 軍歌・戦時歌謡 映画)",
-      info: "",
-      filename: "蘇州夜曲",
-    },
-    {
-      title:
-        "森のくまさん(あるひもりのなかくまさんにであった 童謡・唱歌 アメリカ スカウト)",
-      info: "",
-      filename: "森のくまさん",
-    },
-    {
-      title:
-        "二宮金次郎(しばかりなわないわらじをつくりおやのてをすけ 童謡・唱歌)",
-      info: "",
-      filename: "二宮金次郎",
-    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
