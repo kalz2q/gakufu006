@@ -736,6 +736,11 @@ export default function Home() {
       info: "",
       filename: "ジョスランの子守歌",
     },
+    {
+      title: "バードランドの子守唄(Lullaby of Birdland ジャズ jazz こもりうた)",
+      info: "",
+      filename: "バードランドの子守唄",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
