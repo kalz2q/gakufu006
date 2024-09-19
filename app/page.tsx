@@ -993,6 +993,17 @@ export default function Home() {
       info: "",
       filename: "うさぎ",
     },
+    {
+      title: "兎のダンス(そそらそらそらうさぎのだんす 童謡・唱歌)",
+      info: "",
+      filename: "兎のダンス",
+    },
+    {
+      title:
+        "鉄道唱歌(きてきいっせいしんばしをはやわがきしゃははなれたり 童謡・唱歌)",
+      info: "",
+      filename: "鉄道唱歌",
+    },
   ];
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
