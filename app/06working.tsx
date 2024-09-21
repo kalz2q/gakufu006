@@ -1206,16 +1206,14 @@ export default function Home() {
             <div className="text-xl">{music.title}</div>
             <div className="">
               <audio
-                src={`${music.filename}.mp3`}
-                // src={`${BASE_PATH}/${music.filename}.mp3`}
+                src={`${BASE_PATH}/${music.filename}.mp3`}
                 controls
               ></audio>
             </div>
           </div>
           <div>
             <Image
-              src={`${music.filename}.svg`}
-              // src={`${BASE_PATH}/${music.filename}.svg`}
+              src={`${BASE_PATH}/${music.filename}.svg`}
               alt="music sheet"
               width={4000}
               height={100}
