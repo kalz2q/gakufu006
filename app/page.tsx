@@ -4,6 +4,8 @@ import Image from "next/image";
 
 // const BASE_PATH = nextConfig.basePath || "";
 
+// 無料楽譜サイト(音付き)
+
 import React, { useEffect, useState } from "react";
 
 export default function Home() {
@@ -1984,7 +1986,48 @@ export default function Home() {
       info: "",
       filename: "上を向いて歩こう",
     },
+    {
+      title:
+        "あら野のはてに(あらののはてにゆうひはおちて クリスマス 讃美歌 グロリア)",
+      info: "",
+      filename: "あら野のはてに",
+    },
+    {
+      title: "女心の歌(おんなごころのうた ヴェルディリゴレット クラシック)",
+      info: "",
+      filename: "女心の歌",
+    },
+    {
+      title:
+        "イパネマの娘(The Girl from Ipanema 洋楽 ボサ・ノヴァ ブラジル アントニオ・カルロス・ジョビン)",
+      info: "",
+      filename: "イパネマの娘",
+    },
+    {
+      title: "亜麻色の髪の乙女(ドビュッシー クラシック)",
+      info: "",
+      filename: "亜麻色の髪の乙女ドビュッシー",
+    },
+    {
+      title: "華麗なる大円舞曲(ショパン クラシック)",
+      info: "",
+      filename: "華麗なる大円舞曲",
+    },
+    {
+      title:
+        "雪椿(やさしさとかいしょのなさがうらとおもてについている 歌謡曲 小林幸子 遠藤実)",
+      info: "",
+      filename: "雪椿",
+    },
+    {
+      title:
+        "青葉の笛(敦盛と忠度。いちのたにのいくさやぶれうたれしへいけの 童謡・唱歌 平家物語)",
+      info: "",
+      filename: "青葉の笛",
+    },
   ];
+
+  // ここから
 
   const [musicData, setMusicData] = useState<MusicData[]>(initialData);
   const [music, setMusic] = useState<MusicData>({
