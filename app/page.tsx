@@ -739,7 +739,7 @@ export default function Home() {
       filename: "ジョスランの子守歌",
     },
     {
-      title: "バードランドの子守唄(Lullaby of Birdland ジャズ jazz こもりうた)",
+      title: "バードランドの子守唄(Lullaby of Birdland ジャズ こもりうた)",
       info: "",
       filename: "バードランドの子守唄",
     },
@@ -1623,7 +1623,7 @@ export default function Home() {
     },
     {
       title:
-        "聖者が街にやってくる(聖者の行進 Oh, when the saints go marchin' in  童謡・唱歌 クリスマス ジャズ Jazz 黒人霊歌)",
+        "聖者が街にやってくる(聖者の行進 Oh, when the saints go marchin' in  童謡・唱歌 クリスマス ジャズ 黒人霊歌)",
       info: "",
       filename: "聖者が街にやってくる",
     },
@@ -3708,6 +3708,82 @@ export default function Home() {
         "寒い朝(きたかぜふきぬくさむいあさもこころひとつで 歌謡曲 吉永小百合 1962 吉田正)",
       info: "",
       filename: "寒い朝",
+    },
+    {
+      title: "ビッグ・ベンの鐘(ウェストミンスター宮殿の時計 イギリス ロンドン)",
+      info: "",
+      filename: "ビッグ・ベンの鐘",
+    },
+    {
+      title:
+        "津軽海峡・冬景色(うえのはつのやこうれっしゃおりたときから 歌謡曲 石川さゆり 三木たかし 1977)",
+      info: "",
+      filename: "津軽海峡・冬景色",
+    },
+    {
+      title:
+        "スワニー河(はるかなるすわにーがわきしべに フォスター 故郷の人々 アメリカ)",
+      info: "",
+      filename: "スワニー河",
+    },
+    {
+      title: "美しき青きドナウ(ヨハン・シュトラウス2世 ワルツ クラシック)",
+      info: "",
+      filename: "美しき青きドナウ",
+    },
+    {
+      title: "呼び込みくん(スーパーでよく聞く曲)",
+      info: "",
+      filename: "呼び込みくん",
+    },
+    {
+      title:
+        "煙が目にしみる(Smoke Gets In Your Eyes プラターズ 1958 1932 洋楽)",
+      info: "",
+      filename: "煙が目にしみる",
+    },
+    {
+      title: "威風堂々(エルガー いふうどうどう クラシック)",
+      info: "",
+      filename: "威風堂々",
+    },
+    {
+      title: "エトピリカ(情熱大陸より 2014 葉加瀬太郎)",
+      info: "",
+      filename: "エトピリカ",
+    },
+    {
+      title: "マック・ザ・ナイフ(Mack the Knife ジャズ)",
+      info: "",
+      filename: "マック・ザ・ナイフ",
+    },
+    {
+      title:
+        "バット・ノット・フォー・ミー(ガーシュウィン But Not for Me クラシック ジャズ)",
+      info: "",
+      filename: "バット・ノット・フォー・ミー",
+    },
+    {
+      title: "運命(ベートーベン交響曲5番 クラシック)",
+      info: "",
+      filename: "運命",
+    },
+    {
+      title:
+        "この素晴らしき世界(What a Wonderful World ルイ・アームストロング 1967 ジャズ)",
+      info: "",
+      filename: "この素晴らしき世界",
+    },
+    {
+      title:
+        "愛を感じて(ディズニー「ライオン・キング」より Can you feel the love tonight)",
+      info: "",
+      filename: "愛を感じて",
+    },
+    {
+      title: "フライ・ミー・トゥ・ザ・ムーン(Fly Me To the Moon  ジャズ 洋楽)",
+      info: "",
+      filename: "フライ・ミー・トゥ・ザ・ムーン",
     },
   ];
 
