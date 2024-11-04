@@ -2364,7 +2364,8 @@ export default function Home() {
       filename: "愛のうたごえ(バンビ)",
     },
     {
-      title: "キャリー・ザット・ウェイト(ビートルズ Carry That Weight 1969)",
+      title:
+        "キャリー・ザット・ウェイト(ビートルズ Carry That Weight 1969 洋楽)",
       info: "",
       filename: "キャリー・ザット・ウェイト",
     },
@@ -3784,6 +3785,320 @@ export default function Home() {
       title: "フライ・ミー・トゥ・ザ・ムーン(Fly Me To the Moon  ジャズ 洋楽)",
       info: "",
       filename: "フライ・ミー・トゥ・ザ・ムーン",
+    },
+    {
+      title:
+        "ママがサンタにキスをした(I Saw Mommy Kissing Santa Claus クリスマス)",
+      info: "",
+      filename: "ママがサンタにキスをした",
+    },
+    {
+      title:
+        "王の行進(ファランドール あさひうけてすすむおうのぎょうれつうるわし ビゼー アルルの女 クラシック)",
+      info: "",
+      filename: "王の行進",
+    },
+    {
+      title: "いつか夢で(ディズニー「眠れる森の美女」より Once Upon a Dream)",
+      info: "",
+      filename: "いつか夢で",
+    },
+    {
+      title: "グノーのアヴェ・マリア(Gounod Ave Maria クリスマス)",
+      info: "",
+      filename: "グノーのアヴェ・マリア",
+    },
+    {
+      title: "ピアノソナタ第8番悲愴第2楽章より(ベートーベン クラシック)",
+      info: "",
+      filename: "ピアノソナタ第8番悲愴第2楽章より",
+    },
+    {
+      title:
+        "パート・オブ・ユア・ワールド(ディズニー「リトル・マーメイド」より Part of your World)",
+      info: "",
+      filename: "パート・オブ・ユア・ワールド",
+    },
+    {
+      title: "楽しき農夫(シューマン クラシック)",
+      info: "",
+      filename: "楽しき農夫",
+    },
+    {
+      title:
+        "帰れソレントへ(うるわしのうみはうつつにもゆめむ イタリア ナポリ 童謠・唱歌)",
+      info: "",
+      filename: "帰れソレントへ",
+    },
+    {
+      title:
+        "三百六十五歩のマーチ(しあわせはあるいてこない 1968 水前寺清子 米山正夫)",
+      info: "",
+      filename: "三百六十五歩のマーチ",
+    },
+    {
+      title:
+        "花は咲く(まっしろなゆきみちにはるかぜかおる 歌謡曲 菅野よう子 東日本大震災 チャリティーソング 2011)",
+      info: "",
+      filename: "花は咲く",
+    },
+    {
+      title: "枯葉(Autumn Leaves ジャズ 元曲はフランスのシャンソン)",
+      info: "",
+      filename: "枯葉",
+    },
+    {
+      title:
+        "ひこうき雲(しろいさかみちがそらまでつづいている 松任谷由実 1973 歌謡曲)",
+      info: "",
+      filename: "ひこうき雲",
+    },
+    {
+      title: "凱旋行進曲(ヴェルディ アイーダ クラシック)",
+      info: "",
+      filename: "凱旋行進曲",
+    },
+    {
+      title: "デスペラード(イーグルス Desperado ならず者 洋楽)",
+      info: "",
+      filename: "デスペラード",
+    },
+    {
+      title:
+        "ハート・アンド・ソウル(Heart and Soul 洋楽 Hoagy Carmichael 1938)",
+      info: "",
+      filename: "ハート・アンド・ソウル",
+    },
+    {
+      title:
+        "ハート・アンド・ソウル(Heart and Soul 洋楽 Hoagy Carmichael 1938)",
+      info: "",
+      filename: "ハート・アンド・ソウル",
+    },
+    {
+      title: "ベートーベンのトルコ行進曲(クラシック)",
+      info: "",
+      filename: "ベートーベンのトルコ行進曲",
+    },
+    {
+      title:
+        "グリーン・スリーブス(Greensleeves 洋楽 童謡・唱歌 フォーク イギリス イングランド)",
+      info: "",
+      filename: "グリーン・スリーブス",
+    },
+    {
+      title: "聖夜(きよしこのよる クリスマス 童謡・唱歌 讃美歌)",
+      info: "",
+      filename: "聖夜",
+    },
+    {
+      title: "幻想即興曲(ショパン クラシック)",
+      info: "",
+      filename: "幻想即興曲",
+    },
+    {
+      title: "サッポロ一番(さっぽろいちばんしおらーめん CM)",
+      info: "",
+      filename: "サッポロ一番",
+    },
+    {
+      title:
+        "夜の調べ(グノーのセレナーデ あわれゆかしきうたのしらべ クラシック フランス)",
+      info: "",
+      filename: "夜の調べ",
+    },
+    {
+      title: "君は我が心の中に(Du, Du Liegst Mir Im Herzen ドイツ 童謡・唱歌)",
+      info: "",
+      filename: "君は我が心の中に",
+    },
+    {
+      title: "五月の歌(たのしやごがつくさきはもえ モーツァルト クラシック)",
+      info: "",
+      filename: "五月の歌",
+    },
+    {
+      title:
+        "明治チョコレート(ちょっこれーとちょっこれーとちょこれーとはめいじ CM)",
+      info: "",
+      filename: "明治チョコレート",
+    },
+    {
+      title: "ヴィヴァルディ四季より春(クラシック)",
+      info: "",
+      filename: "ヴィヴァルディ四季より春",
+    },
+    {
+      title: "美女と野獣(ディズニー Beauty and the Beast)",
+      info: "",
+      filename: "美女と野獣",
+    },
+    {
+      title: "ヘイ・ジュード(ビートルズ Hey Jude 洋楽)",
+      info: "",
+      filename: "ヘイ・ジュード",
+    },
+    {
+      title: "セブン・イレブン(せぶんいれぶんいいきぶん CM)",
+      info: "",
+      filename: "セブン・イレブン",
+    },
+    {
+      title: "茶色の小瓶(Little Brown Jug ジャズ)",
+      info: "",
+      filename: "茶色の小瓶",
+    },
+    {
+      title: "愛の喜び(マルティーニ クラシック)",
+      info: "",
+      filename: "愛の喜び",
+    },
+    {
+      title: "雨だれの前奏曲(ショパン クラシック)",
+      info: "",
+      filename: "雨だれの前奏曲",
+    },
+    {
+      title:
+        "スーパーカリフラジリスティックエクスピアリドーシャス(ディズニー「メリー・ポピンズ」より)",
+      info: "",
+      filename: "スーパーカリフラジリスティック",
+    },
+    {
+      title: "エリーゼのために(ベートーベン クラシック)",
+      info: "",
+      filename: "エリーゼのために",
+    },
+    {
+      title:
+        "朝日のごとくさわやかに(Softly as in a Morning Sunshine 洋楽 ジャズ)",
+      info: "",
+      filename: "朝日のごとくさわやかに",
+    },
+    {
+      title: "これが恋かしら(ディズニー「シンデレラ」より So This is Love)",
+      info: "",
+      filename: "これが恋かしら",
+    },
+    {
+      title: "神の御子は(かみのみこはこよいしもべつれへむに クリスマス 讃美歌)",
+      info: "",
+      filename: "神の御子は",
+    },
+    {
+      title:
+        "ムーン・リバー(Moon River wider than a mile 洋楽 1961 映画 ティファニーで朝食を)",
+      info: "",
+      filename: "ムーン・リバー",
+    },
+    {
+      title:
+        "インターナショナル(たてうえたるものよいまぞひはちかし 童謡・唱歌 フォーク 革命歌 19世紀フランス)",
+      info: "",
+      filename: "インターナショナル",
+    },
+    {
+      title:
+        "歌の翼に(メンデルスゾーン うたのつばさをかりてゆかなさちにあふるるゆめのくにへ クラシック)",
+      info: "",
+      filename: "歌の翼に",
+    },
+    {
+      title:
+        "そりすべり(リロイ・アンダーソン クリスマス 1948 アメリカ Sleigh Ride)",
+      info: "",
+      filename: "そりすべり",
+    },
+    {
+      title:
+        "私のお気に入り(サウンド・オブ・ミュージックより My Favorite Things 1959)",
+      info: "",
+      filename: "私のお気に入り",
+    },
+    {
+      title: "リベルタンゴ(ピアソラ クラシック 1974 バンドネオン)",
+      info: "",
+      filename: "リベルタンゴ",
+    },
+    {
+      title: "新世界より(ドヴォルザーク クラシック チェコ 1893)",
+      info: "",
+      filename: "新世界より",
+    },
+    {
+      title:
+        "漕げよマイケル(Michael Row the Boat Ashore Hallelujah 洋楽 童謡・唱歌 黒人スピリチュアル フォーク)",
+      info: "",
+      filename: "漕げよマイケル",
+    },
+    {
+      title: "ケーズデンキの歌(ゆめゆめはっぴーいつでもやすい CM)",
+      info: "",
+      filename: "ケーズデンキの歌",
+    },
+    {
+      title:
+        "ウェルナーの野ばら(わらべはみたりのなかのばら ウェルナー クラシック 童謡・唱歌 ドイツ歌曲)",
+      info: "",
+      filename: "ウェルナーの野ばら",
+    },
+    {
+      title: "ブラームスのワルツ(円舞曲 クラシック)",
+      info: "",
+      filename: "ブラームスのワルツ",
+    },
+    {
+      title: "ふしぎの国のアリス(ディズニー Alice in Wonderland)",
+      info: "",
+      filename: "ふしぎの国のアリス",
+    },
+    {
+      title:
+        "千の風になって(わたしのおはかのまえでなかないでください 歌謡曲 新井満 2006)",
+      info: "",
+      filename: "千の風になって",
+    },
+    {
+      title: "オブラディ・オブラダ(ビートルズ 洋楽 Ob-La-Di, Ob-La-Da)",
+      info: "",
+      filename: "オブラディ・オブラダ",
+    },
+    {
+      title: "宇宙を越えて(ビートルズ 洋楽 Across the Universe)",
+      info: "",
+      filename: "宇宙を越えて",
+    },
+    {
+      title: "ジングル・ベル(のをこえておかをこえ クリスマス 童謡・唱歌)",
+      info: "",
+      filename: "ジングル・ベル",
+    },
+    {
+      title:
+        "恋とはどんなものかしら(フィガロの結婚より モーツァルト クラシック)",
+      info: "",
+      filename: "恋とはどんなものかしら",
+    },
+    {
+      title: "ペールギュントより朝(グリーグ クラシック ノルウェー)",
+      info: "",
+      filename: "ペールギュントより朝",
+    },
+    {
+      title: "セナのピアノⅡ(Close to You テレビ ロングバケーション)",
+      info: "",
+      filename: "セナのピアノⅡ",
+    },
+    {
+      title: "少年時代(なつがすぎかぜあざみ 井上陽水 歌謡曲 1990)",
+      info: "",
+      filename: "少年時代",
+    },
+    {
+      title:
+        "ドラえもんのうた(こんなこといいなできたらいいなあんなゆめこんなゆめ 童謡・唱歌 テレビ アニメ 1979 菊池俊輔)",
+      info: "",
+      filename: "ドラえもんのうた",
     },
   ];
 
