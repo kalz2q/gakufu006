@@ -48,7 +48,8 @@ export default function Home() {
       filename: "叱られて",
     },
     {
-      title: "学生時代(つたのからまるちゃぺるで 歌謡曲 ペギー葉山)",
+      title:
+        "学生時代(つたのからまるちゃぺるで 歌謡曲 ペギー葉山 1964 平岡精二)",
       info: "",
       filename: "学生時代",
     },
@@ -286,7 +287,8 @@ export default function Home() {
       filename: "亜麻色の髪の乙女",
     },
     {
-      title: "高校三年生(あかいゆうひがこうしゃをそめて 歌謡曲 舟木一夫)",
+      title:
+        "高校三年生(あかいゆうひがこうしゃをそめて 歌謡曲 舟木一夫 1963 遠藤実)",
       info: "",
       filename: "高校三年生",
     },
@@ -406,13 +408,13 @@ export default function Home() {
     },
     {
       title:
-        "イエスタデイ・ワンス・モア(カーペンターズ。Yesterday Once More 洋楽)",
+        "イエスタデイ・ワンス・モア(カーペンターズ Yesterday Once More 洋楽)",
       info: "",
       filename: "イエスタデイ・ワンス・モア",
     },
     {
       title:
-        "あの丘越えて(やまのまきばのゆうぐれにかりがとんでるただいちわ 歌謡曲 美空ひばり)",
+        "あの丘越えて(やまのまきばのゆうぐれにかりがとんでるただいちわ 歌謡曲 美空ひばり 万城目正 1951 映画)",
       info: "",
       filename: "あの丘越えて",
     },
@@ -2165,7 +2167,8 @@ export default function Home() {
       filename: "人生いろいろ",
     },
     {
-      title: "好きになった人(さようならさようならげんきでいてね 都はるみ 1968)",
+      title:
+        "好きになった人(さようならさようならげんきでいてね 都はるみ 1968 市川昭介)",
       info: "",
       filename: "好きになった人",
     },
@@ -2812,7 +2815,7 @@ export default function Home() {
     },
     {
       title:
-        "東京の花売り娘(あおいめをふくやなぎのつじにはなをめしませ 歌謡曲 岡晴夫 1946)",
+        "東京の花売り娘(あおいめをふくやなぎのつじにはなをめしませ 歌謡曲 岡晴夫 1946 上原げんと)",
       info: "",
       filename: "東京の花売り娘",
     },
@@ -4493,6 +4496,51 @@ export default function Home() {
       info: "",
       filename: "マルエツドクター元気",
     },
+    {
+      title:
+        "ア・ソング・フォー・ユー(A Song for You 洋楽 レオン・ラッセル 1970 カーペンターズ 1972)",
+      info: "",
+      filename: "ア・ソング・フォー・ユー",
+    },
+    {
+      title:
+        "小さな願い(バート・バカラック ディオンヌ・ワーウィック I Say a Little Prayer 1967 洋楽 ベトナム戦争)",
+      info: "",
+      filename: "小さな願い",
+    },
+    {
+      title:
+        "恋よ、さようなら(I'll Never Fall in Love Again バート・バカラック ディオンヌ・ワーウィック 1968 洋楽)",
+      info: "",
+      filename: "恋よ、さようなら",
+    },
+    {
+      title:
+        "恋のおもかげ(The Look of Love 映画 洋楽 007カジノロワイヤル バート・バカラック ダスティ・スプリングフィールド 1967)",
+      info: "",
+      filename: "恋のおもかげ",
+    },
+    {
+      title:
+        "遙かなる影((They Long to Be) Close to You はるかなる バート・バカラック 洋楽 1963 カーペンターズ 1970)",
+      info: "",
+      filename: "遙かなる影",
+    },
+    {
+      title:
+        "サン・ホセへの道(Do You Know the Way to San Jose ディオンヌ・ワーウィック 1968 バート・バカラック 洋楽)",
+      info: "",
+      filename: "サン・ホセへの道",
+    },
+    {
+      title:
+        "世界は愛を求めている(What the World Needs Now Is Love ジャッキー・デシャノン 1965 バート・バカラック 洋楽)",
+      info: "",
+      filename: "世界は愛を求めている",
+    },
+    // さよーならまたいつか！(どこからはるがめぐりくるのかしらず 歌謡曲 米津玄師 2024 テレビ 虎に翼)
+    // ダイアモンド(つめたいいずみにすあしをひたしてみあげる Diamonds プリンセス プリンセス プリプリ 1989)
+    //
   ];
 
   // ここから
