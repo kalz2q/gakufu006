@@ -4635,6 +4635,31 @@ export default function Home() {
       info: "",
       filename: "アイ・ガット・リズム",
     },
+    {
+      title: "マイム・マイム(Mayim Mayim 童謡・唱歌 フォークダンス イスラエル)",
+      info: "",
+      filename: "マイム・マイム",
+    },
+    {
+      title: "ジェリコの戦い(Joshua Fit The Battle Of Jericho 黒人霊歌 ジャズ)",
+      info: "",
+      filename: "ジェリコの戦い",
+    },
+    {
+      title: "友よ(ともよよあけまえのやみのなかで フォーク 岡林信康 1968)",
+      info: "",
+      filename: "友よ",
+    },
+    {
+      title: "山谷ブルース(きょうのしごとはつらかった フォーク 岡林信康 1968)",
+      info: "",
+      filename: "山谷ブルース",
+    },
+    {
+      title: "ある愛の詩(Love Story 映画 1970 フランシス・レイ)",
+      info: "",
+      filename: "ある愛の詩",
+    },
     //
     //
     //
