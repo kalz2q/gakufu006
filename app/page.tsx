@@ -1,5 +1,5 @@
 "use client";
-
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { songs } from "./songs";
@@ -69,7 +69,7 @@ export default function MusicSheetApp() {
               <audio
                 controls
                 className="w-full ml-auto max-w-[800px]"
-                src={`/${currentMusic.title}.mp3`}
+                src={`./${encodeURIComponent(currentMusic.title)}.mp3`}
               />
             </div>
           </div>
@@ -97,13 +97,10 @@ export default function MusicSheetApp() {
               </div>
 
               <div className="border rounded-lg overflow-hidden">
-                <Image
-                  src={`/${currentMusic.title}.svg`}
+                <img
+                  src={`./${encodeURIComponent(currentMusic.title)}.svg`}
                   alt={`${currentMusic.title} 楽譜`}
-                  width={1200}
-                  height={600}
-                  style={{ width: "100%", height: "auto" }}
-                  quality={100}
+                  className="w-full h-auto"
                 />
               </div>
             </>
