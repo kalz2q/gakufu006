@@ -2,11 +2,10 @@
 /* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import { useEffect, useState } from "react";
-import { songs } from "./songs";
 
 interface MusicData {
   title: string;
-  info: string;
+  info?: string;
   begin: string;
 }
 
@@ -19,7 +18,20 @@ export default function MusicSheetApp() {
 
   useEffect(() => {
     document.title = "楽譜(音付き)";
-    setMusicData(shuffleArray([...songs]));
+
+    fetch("./songs.json")
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("songs.json の読み込みに失敗しました");
+        }
+        return response.json();
+      })
+      .then((data: MusicData[]) => {
+        setMusicData(shuffleArray([...data]));
+      })
+      .catch((error) => {
+        console.error(error);
+      });
   }, []);
 
   // 曲をシャッフル
@@ -49,7 +61,7 @@ export default function MusicSheetApp() {
   const filteredMusic = musicData.filter(
     (music) =>
       music.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-      music.info.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      (music.info ?? "").toLowerCase().includes(searchTerm.toLowerCase()) ||
       music.begin.toLowerCase().includes(searchTerm.toLowerCase()),
   );
 
