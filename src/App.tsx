@@ -14,8 +14,10 @@ const shuffleArray = <T,>(array: T[]): T[] => {
   return array;
 };
 
-const assetUrl = (fileName: string) =>
-  `${import.meta.env.BASE_URL}${encodeURIComponent(fileName)}`;
+const assetUrl = (fileName: string) => {
+  const publicPath = import.meta.env.DEV ? "public/" : "";
+  return `${import.meta.env.BASE_URL}${publicPath}${encodeURIComponent(fileName)}`;
+};
 
 export default function App() {
   const [musicData, setMusicData] = useState<MusicData[]>([]);
